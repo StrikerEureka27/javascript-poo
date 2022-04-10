@@ -134,34 +134,21 @@ const miguel2 = {
 }
 
 
-class Student3 {
-    constructor({
-        name, 
-        email, 
-        username, 
-        twitter =  undefined, 
-        instagram, 
-        facebook,
-        cursosAprobados = [], 
-        learningPaths,
-    }){
-        this.name = name;
-        this.email = email;
-        this.username = username;
-        this.socialMedia = {
-            twitter, 
-            instagram, 
-            facebook
-        };
-        this.cursosAprobados = cursosAprobados;
-        this.learningPaths = learningPaths;
-    }
-}
+
+
+
+
+
+
+
+
+
 
 const Juan2 = new Student3({
     name: "Juan",
     username: "JuanDC",
     email: "juan@mai.com", 
     username: "xxJuanxx", 
-    cursosAprobados: ["Curso de html"]
+    cursosAprobados: ["Curso de html"], 
+    learningPaths: escuelaWeb
 });
